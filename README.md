@@ -18,7 +18,7 @@ We can also create a specific HTTP Response Mapper class for specific cases. For
 ![JSON parsing layer diagram](images/parsing-layer.png)
 
 ## Example
-I will use jsonplaceholder API. This is the endpoint I will use: [posts](https://jsonplaceholder.typicode.com/posts)
+I will use jsonplaceholder API. This is the endpoint I will use: [posts endpoint](https://jsonplaceholder.typicode.com/posts)
 I will fetch post list and show it in the ListView.
 I will create the following classes:
 1. PostModel: Data class(I recommend you to use [freezed](https://pub.dev/packages/freezed) and [json_serializable](https://pub.dev/packages/json_serializable) packages for the code generation. I didn't use it because it's a very simple example)
