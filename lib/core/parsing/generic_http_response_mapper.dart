@@ -1,4 +1,5 @@
 import 'package:simple_network_app/core/network/index.dart';
+import 'package:simple_network_app/core/parsing/index.dart';
 
 class GenericHTTPResponseMapper {
   static (R?, NetworkError?) map<R, T>(

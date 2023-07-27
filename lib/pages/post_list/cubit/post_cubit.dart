@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:simple_network_app/core/network/network_state.dart';
+import 'package:simple_network_app/core/network/model/network_state.dart';
 import 'package:simple_network_app/pages/post_list/model/post_model.dart';
 import 'package:simple_network_app/pages/post_list/service/base_post_service.dart';
 
